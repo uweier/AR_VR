@@ -88,4 +88,4 @@
 
 ### 项目成功安装效果
 
-![游戏在手机上的效果]()
+![游戏在手机上的效果](https://github.com/uweier/AR_VR/blob/master/AR_VR_video/ar_vr_class_1.mp4)
