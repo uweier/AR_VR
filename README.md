@@ -14,13 +14,15 @@
 ### 1、安装Unity3d
 先后安装：
 - UnitySetup64-5.6.2f1
-- UnityStandardAssetsSetup-5.6.2f1（安装时关闭防火干墙和Unity）
+- UnityStandardAssetsSetup-5.6.2f1（安装时关闭防火墙和Unity）
 - UnitySetup-Android-Support-for-Editor-5.6.2f1.exe
 
 安装时主要点击“下一步”即可，首次使用Unity需注册。
 
 ![UnitySetup.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnitySetup.png)
+
 ![UnityStandardAssetsSetup.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnityStandardAssetsSetup.png)
+
 ![UnitySetup-Android.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnitySetup-Android.png)
 
 ### 2、安装JAVA开发平台
@@ -34,6 +36,7 @@
 2. 变量名“Path”，添加变量值“%JAVA_HOME%\bin”
 
 ![java_0](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_path_0.png)
+
 ![java_1](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_path_1.png)
 
 验证java是否成功安装：
@@ -41,7 +44,9 @@
 - 在cmd中分别输入：“java”、“java -version”、“javac”
 
 安装成功会有以下输出。
+
 ![java_install_0](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_install_0.png)
+
 ![java_install_1](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_install_1.png)
 
 ### 3、安装android开发平台
@@ -52,6 +57,7 @@
 - SDK Manager.exe
 
 初次打开要更新一下新包：
+
 ![sdk_0](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/sdk_0.png)
 
 
@@ -59,14 +65,19 @@
 (1)进入Unity3d，新建项目
 
 (2)打开 edit --> preferences --> External Tools，点击Browse，选择sdk和jdk路径文件夹
-（图）
+
+![unity_android_hj_0](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/unity_android_hj_0.png)
 
 (3)新建场景/打开已有场景，打开 File --> Build Settings，切换至Android，点击“Switch Platform”，点击“Add Open Scenes”。
 
-点击“Player Settings”，修改Company Name，“Other Settings”中，修改Identification-Package Name，
+![unity_android_hj_1](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/unity_android_hj_1.png)
 
-例如：com.yuhui.sj
+点击“Player Settings”，修改Company Name，“Other Settings”中，修改Identification-Package Name，例如：com.yuhui.sj
 
-修改完成后，点击Build。
+![unity_android_hj_2](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/unity_android_hj_2.png)
 
-（图）
+修改完成后，点击Build。保存打包为.apk文件。
+
+将.apk文件安装到手机即可使用。
+
+![unity_android_hj_3](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/unity_android_hj_3.png)
