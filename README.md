@@ -5,6 +5,8 @@
 - 链接：https://pan.baidu.com/s/1xZEa1obWH3NDkHRgIvAj6g 
 - 提取码：flo5
 
+:exclamation:注意！软件安装路径下不能有中文！
+
 ### 1、安装Unity3d
 先后安装：
 - UnitySetup64-5.6.2f1
