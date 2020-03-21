@@ -15,6 +15,10 @@
 
 安装时主要点击“下一步”即可，首次使用Unity要注册。
 
+![UnitySetup.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnitySetup.png)
+![UnityStandardAssetsSetup.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnityStandardAssetsSetup.png)
+![UnitySetup-Android.png](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/UnitySetup-Android.png)
+
 ### 2、安装JAVA开发平台
 安装：
 - jdk-8u144-windows-i586_8.0.1440.1
@@ -25,8 +29,8 @@
 1. 变量名“JAVA_HOME”，变量值“E:\jdk”（jdk的安装路径）
 2. 变量名“Path”，添加变量值“%JAVA_HOME%\bin”
 
-（图）
-
+![java_0](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_path_0.png)
+![java_1](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/java_path_1.png)
 验证java是否成功安装：
 - 快捷键win+r，输入cmd
 - 在cmd中分别输入：“java”、“java -version”、“javac”
