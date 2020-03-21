@@ -81,3 +81,11 @@
 将.apk文件安装到手机即可使用。
 
 ![unity_android_hj_3](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/unity_android_hj_3.png)
+
+### 5、导入、导出项目
+
+![export_package](https://github.com/uweier/AR_VR/blob/master/AR_VR_image/export_package.png)
+
+### 项目成功安装效果
+
+![游戏在手机上的效果]()
